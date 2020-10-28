@@ -1,0 +1,10 @@
+# Thank you for installing PhoenixChat the all in one Chat Plugin
+#
+# Placeholders:
+# %msg% : Is replaced with the msg from chat
+#
+# Chat Format for entire server
+pchat-chat-format: "%vault_rank% %player_name% >> %msg%"
+#
+# Join Message format
+pchat-join-msg: "%vault_rank% %player_name% &ahas Joined the server"
