@@ -1,0 +1,22 @@
+name: PhoenixChat
+version: ${project.version}
+main: me.jj9playz.phoenixchat.Phoenixchat
+api-version: 1.16
+authors: [ JJ9_Playz ]
+description: A advanced Chat Plugin with the ability to create custom chat prefixis.
+
+depend: [PlaceholderAPI]
+
+
+commands:
+  rank:
+    description: Show your current rank
+    usage: /<command>
+  msg:
+    description: privately message other online players
+    usage: /<command>
+
+permissions:
+  pchat.spy:
+    description: Anyone with this permission can spy on private messages
+    default: op
